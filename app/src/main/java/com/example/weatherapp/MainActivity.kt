@@ -12,11 +12,11 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import java.util.*
-
+import com.secretapi.getkey
 class MainActivity : AppCompatActivity() {
 
     val CITY: String = "San Francisco"
-    val API: String = "2162f5f62a7c0eb1fa3b1efad1cd6b9b" // Use API key
+    val API: String = getkey() // Use your API key
     private var relativeLayout: RelativeLayout? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
